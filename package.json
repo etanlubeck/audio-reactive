@@ -1,0 +1,31 @@
+{
+  "name": "audio-reactive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^2.0.0",
+    "delaunator": "^1.0.3",
+    "getusermedia": "^2.0.1",
+    "isomer": "^0.2.6",
+    "perlin-simplex": "0.0.2",
+    "postcss": "^6.0.4",
+    "postcss-loader": "^2.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
