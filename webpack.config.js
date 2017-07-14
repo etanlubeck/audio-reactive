@@ -12,7 +12,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'templates/index.ejs'
+      template: 'templates/index.ejs',
+      inject: false
     }),
     new webpack.HotModuleReplacementPlugin()
   ],
@@ -27,8 +28,8 @@ module.exports = {
         test: /\.css$/,
         use: [
           'style-loader',
-          { loader: 'css-loader', options: { importLoaders: 1 } },
-          'postcss-loader'
+          { loader: 'css-loader', options: { importLoaders: 1 } }
+
         ]
       },
       {

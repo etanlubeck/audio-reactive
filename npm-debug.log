@@ -1,43 +1,767 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/Users/natelubeck/.nvm/versions/node/v4.4.4/bin/node',
 1 verbose cli   '/Users/natelubeck/.nvm/versions/node/v4.4.4/bin/npm',
-1 verbose cli   'run',
-1 verbose cli   'dev' ]
+1 verbose cli   'i',
+1 verbose cli   '-S',
+1 verbose cli   'three.fbo-helper' ]
 2 info using npm@2.15.1
 3 info using node@v4.4.4
-4 verbose run-script [ 'predev', 'dev', 'postdev' ]
-5 info predev audio-reactive@1.0.0
-6 info dev audio-reactive@1.0.0
-7 verbose unsafe-perm in lifecycle true
-8 info audio-reactive@1.0.0 Failed to exec dev script
-9 verbose stack Error: audio-reactive@1.0.0 dev: `webpack --watch --progress`
-9 verbose stack Exit status 1
-9 verbose stack     at EventEmitter.<anonymous> (/Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at EventEmitter.emit (events.js:172:7)
-9 verbose stack     at ChildProcess.<anonymous> (/Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at ChildProcess.emit (events.js:172:7)
-9 verbose stack     at maybeClose (internal/child_process.js:827:16)
-9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-10 verbose pkgid audio-reactive@1.0.0
-11 verbose cwd /Users/natelubeck/Projects/audio-reactive
-12 error Darwin 16.6.0
-13 error argv "/Users/natelubeck/.nvm/versions/node/v4.4.4/bin/node" "/Users/natelubeck/.nvm/versions/node/v4.4.4/bin/npm" "run" "dev"
-14 error node v4.4.4
-15 error npm  v2.15.1
-16 error code ELIFECYCLE
-17 error audio-reactive@1.0.0 dev: `webpack --watch --progress`
-17 error Exit status 1
-18 error Failed at the audio-reactive@1.0.0 dev script 'webpack --watch --progress'.
-18 error This is most likely a problem with the audio-reactive package,
-18 error not with npm itself.
-18 error Tell the author that this fails on your system:
-18 error     webpack --watch --progress
-18 error You can get information on how to open an issue for this project with:
-18 error     npm bugs audio-reactive
-18 error Or if that isn't available, you can get their info via:
-18 error
-18 error     npm owner ls audio-reactive
-18 error There is likely additional logging output above.
-19 verbose exit [ 1, true ]
+4 verbose install initial load of /Users/natelubeck/Projects/audio-reactive/package.json
+5 warn package.json audio-reactive@1.0.0 No description
+6 warn package.json audio-reactive@1.0.0 No repository field.
+7 warn package.json audio-reactive@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/accepts/package.json
+9 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/acorn/package.json
+10 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/acorn-dynamic-import/package.json
+11 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ajv/package.json
+12 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ajv-keywords/package.json
+13 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/align-text/package.json
+14 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ansi-html/package.json
+15 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ansi-regex/package.json
+16 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ansi-styles/package.json
+17 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/anymatch/package.json
+18 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/argparse/package.json
+19 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/arr-diff/package.json
+20 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/arr-flatten/package.json
+21 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/array-find-index/package.json
+22 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/array-flatten/package.json
+23 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/array-union/package.json
+24 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/array-uniq/package.json
+25 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/array-unique/package.json
+26 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/arrify/package.json
+27 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/asn1.js/package.json
+28 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/assert/package.json
+29 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/async/package.json
+30 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/async-each/package.json
+31 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-code-frame/package.json
+32 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-core/package.json
+33 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-generator/package.json
+34 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-builder-binary-assignment-operator-visitor/package.json
+35 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-builder-react-jsx/package.json
+36 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-call-delegate/package.json
+37 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-define-map/package.json
+38 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-explode-assignable-expression/package.json
+39 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-function-name/package.json
+40 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-get-function-arity/package.json
+41 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-hoist-variables/package.json
+42 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-optimise-call-expression/package.json
+43 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-regex/package.json
+44 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-remap-async-to-generator/package.json
+45 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helper-replace-supers/package.json
+46 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-helpers/package.json
+47 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-loader/package.json
+48 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-messages/package.json
+49 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-check-es2015-constants/package.json
+50 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-syntax-async-functions/package.json
+51 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-syntax-exponentiation-operator/package.json
+52 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-syntax-flow/package.json
+53 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-syntax-jsx/package.json
+54 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-syntax-trailing-function-commas/package.json
+55 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-async-to-generator/package.json
+56 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json
+57 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json
+58 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-block-scoping/package.json
+59 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-classes/package.json
+60 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-computed-properties/package.json
+61 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-destructuring/package.json
+62 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-duplicate-keys/package.json
+63 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-for-of/package.json
+64 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-function-name/package.json
+65 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-literals/package.json
+66 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-modules-amd/package.json
+67 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json
+68 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-modules-systemjs/package.json
+69 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-modules-umd/package.json
+70 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-object-super/package.json
+71 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-parameters/package.json
+72 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json
+73 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-spread/package.json
+74 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json
+75 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-template-literals/package.json
+76 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json
+77 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json
+78 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-exponentiation-operator/package.json
+79 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-flow-strip-types/package.json
+80 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-react-display-name/package.json
+81 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-react-jsx/package.json
+82 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-react-jsx-self/package.json
+83 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-react-jsx-source/package.json
+84 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-regenerator/package.json
+85 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-plugin-transform-strict-mode/package.json
+86 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-preset-env/package.json
+87 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-preset-flow/package.json
+88 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-preset-react/package.json
+89 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-register/package.json
+90 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-runtime/package.json
+91 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-template/package.json
+92 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-traverse/package.json
+93 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babel-types/package.json
+94 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/babylon/package.json
+95 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/balanced-match/package.json
+96 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/base64-js/package.json
+97 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/batch/package.json
+98 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/big.js/package.json
+99 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/binary-extensions/package.json
+100 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/bluebird/package.json
+101 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/bn.js/package.json
+102 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/bonjour/package.json
+103 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/boolbase/package.json
+104 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/bootstrap/package.json
+105 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/brace-expansion/package.json
+106 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/braces/package.json
+107 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/brorand/package.json
+108 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/browserify-aes/package.json
+109 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/browserify-cipher/package.json
+110 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/browserify-des/package.json
+111 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/browserify-rsa/package.json
+112 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/browserify-sign/package.json
+113 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/browserify-zlib/package.json
+114 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/browserslist/package.json
+115 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/buffer/package.json
+116 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/buffer-indexof/package.json
+117 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/buffer-xor/package.json
+118 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/builtin-modules/package.json
+119 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/builtin-status-codes/package.json
+120 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/bytes/package.json
+121 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/camel-case/package.json
+122 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/camelcase/package.json
+123 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/camelcase-keys/package.json
+124 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/caniuse-lite/package.json
+125 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/center-align/package.json
+126 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/chalk/package.json
+127 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/chokidar/package.json
+128 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/cipher-base/package.json
+129 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/clean-css/package.json
+130 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/cliui/package.json
+131 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/co/package.json
+132 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/code-point-at/package.json
+133 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/color/package.json
+134 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/color-convert/package.json
+135 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/color-name/package.json
+136 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/commander/package.json
+137 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/commondir/package.json
+138 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/compressible/package.json
+139 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/compression/package.json
+140 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/concat-map/package.json
+141 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/connect-history-api-fallback/package.json
+142 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/console-browserify/package.json
+143 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/constants-browserify/package.json
+144 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/content-disposition/package.json
+145 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/content-type/package.json
+146 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/convert-source-map/package.json
+147 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/cookie/package.json
+148 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/cookie-signature/package.json
+149 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/core-js/package.json
+150 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/core-util-is/package.json
+151 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/cosmiconfig/package.json
+152 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/create-ecdh/package.json
+153 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/create-hash/package.json
+154 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/create-hmac/package.json
+155 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/crypto-browserify/package.json
+156 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/css-loader/package.json
+157 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/css-select/package.json
+158 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/css-what/package.json
+159 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/currently-unhandled/package.json
+160 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/d/package.json
+161 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/date-now/package.json
+162 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/debug/package.json
+163 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/decamelize/package.json
+164 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/deep-equal/package.json
+165 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/del/package.json
+166 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/delaunator/package.json
+167 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/depd/package.json
+168 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/des.js/package.json
+169 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/destroy/package.json
+170 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/detect-indent/package.json
+171 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/detect-node/package.json
+172 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/diffie-hellman/package.json
+173 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/dns-equal/package.json
+174 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/dns-packet/package.json
+175 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/dns-txt/package.json
+176 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/dom-converter/package.json
+177 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/dom-serializer/package.json
+178 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/domain-browser/package.json
+179 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/domelementtype/package.json
+180 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/domhandler/package.json
+181 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/domutils/package.json
+182 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ee-first/package.json
+183 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/electron-to-chromium/package.json
+184 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/elliptic/package.json
+185 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/emojis-list/package.json
+186 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/encodeurl/package.json
+187 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/enhanced-resolve/package.json
+188 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/entities/package.json
+189 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/errno/package.json
+190 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/error-ex/package.json
+191 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/es5-ext/package.json
+192 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/es6-iterator/package.json
+193 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/es6-map/package.json
+194 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/es6-set/package.json
+195 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/es6-symbol/package.json
+196 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/es6-weak-map/package.json
+197 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/escape-html/package.json
+198 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/escape-string-regexp/package.json
+199 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/escope/package.json
+200 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/esprima/package.json
+201 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/esrecurse/package.json
+202 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/estraverse/package.json
+203 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/esutils/package.json
+204 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/etag/package.json
+205 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/event-emitter/package.json
+206 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/eventemitter3/package.json
+207 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/events/package.json
+208 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/eventsource/package.json
+209 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/evp_bytestokey/package.json
+210 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/expand-brackets/package.json
+211 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/expand-range/package.json
+212 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/express/package.json
+213 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/extglob/package.json
+214 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/fast-deep-equal/package.json
+215 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/faye-websocket/package.json
+216 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/filename-regex/package.json
+217 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/fill-range/package.json
+218 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/finalhandler/package.json
+219 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/find-cache-dir/package.json
+220 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/find-up/package.json
+221 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/for-in/package.json
+222 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/for-own/package.json
+223 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/forwarded/package.json
+224 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/fresh/package.json
+225 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/fs.realpath/package.json
+226 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/fsevents/package.json
+227 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/get-caller-file/package.json
+228 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/get-stdin/package.json
+229 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/getusermedia/package.json
+230 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/glob/package.json
+231 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/glob-base/package.json
+232 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/glob-parent/package.json
+233 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/globals/package.json
+234 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/globby/package.json
+235 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/graceful-fs/package.json
+236 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/graceful-readlink/package.json
+237 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/handle-thing/package.json
+238 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/has-ansi/package.json
+239 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/has-flag/package.json
+240 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/hash-base/package.json
+241 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/hash.js/package.json
+242 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/he/package.json
+243 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/hmac-drbg/package.json
+244 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/home-or-tmp/package.json
+245 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/hosted-git-info/package.json
+246 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/hpack.js/package.json
+247 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/html-entities/package.json
+248 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/html-minifier/package.json
+249 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/html-webpack-plugin/package.json
+250 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/htmlparser2/package.json
+251 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/http-deceiver/package.json
+252 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/http-errors/package.json
+253 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/http-proxy/package.json
+254 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/http-proxy-middleware/package.json
+255 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/https-browserify/package.json
+256 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ieee754/package.json
+257 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/indent-string/package.json
+258 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/indexof/package.json
+259 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/inflight/package.json
+260 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/inherits/package.json
+261 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/internal-ip/package.json
+262 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/interpret/package.json
+263 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/invariant/package.json
+264 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/invert-kv/package.json
+265 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ip/package.json
+266 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ipaddr.js/package.json
+267 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-arrayish/package.json
+268 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-binary-path/package.json
+269 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-buffer/package.json
+270 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-builtin-module/package.json
+271 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-directory/package.json
+272 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-dotfile/package.json
+273 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-equal-shallow/package.json
+274 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-extendable/package.json
+275 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-extglob/package.json
+276 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-finite/package.json
+277 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-fullwidth-code-point/package.json
+278 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-glob/package.json
+279 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-number/package.json
+280 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-path-cwd/package.json
+281 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-path-in-cwd/package.json
+282 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-path-inside/package.json
+283 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-posix-bracket/package.json
+284 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-primitive/package.json
+285 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/is-utf8/package.json
+286 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/isarray/package.json
+287 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ismobilejs/package.json
+288 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/isobject/package.json
+289 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/isomer/package.json
+290 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/js-tokens/package.json
+291 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/js-yaml/package.json
+292 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/jsesc/package.json
+293 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/json-loader/package.json
+294 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/json-schema-traverse/package.json
+295 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/json-stable-stringify/package.json
+296 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/json3/package.json
+297 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/json5/package.json
+298 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/jsonify/package.json
+299 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/kind-of/package.json
+300 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/lazy-cache/package.json
+301 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/lcid/package.json
+302 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/load-json-file/package.json
+303 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/loader-runner/package.json
+304 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/loader-utils/package.json
+305 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/locate-path/package.json
+306 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/lodash/package.json
+307 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/longest/package.json
+308 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/loose-envify/package.json
+309 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/loud-rejection/package.json
+310 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/lower-case/package.json
+311 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/make-dir/package.json
+312 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/map-obj/package.json
+313 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/media-typer/package.json
+314 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/memory-fs/package.json
+315 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/meow/package.json
+316 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/merge-descriptors/package.json
+317 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/methods/package.json
+318 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/micromatch/package.json
+319 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/miller-rabin/package.json
+320 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/mime/package.json
+321 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/mime-db/package.json
+322 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/mime-types/package.json
+323 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/minimalistic-assert/package.json
+324 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/minimalistic-crypto-utils/package.json
+325 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/minimatch/package.json
+326 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/minimist/package.json
+327 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/mkdirp/package.json
+328 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ms/package.json
+329 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/multicast-dns/package.json
+330 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/multicast-dns-service-types/package.json
+331 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/nan/package.json
+332 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ncname/package.json
+333 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/negotiator/package.json
+334 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/no-case/package.json
+335 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/node-forge/package.json
+336 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/node-libs-browser/package.json
+337 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/normalize-package-data/package.json
+338 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/normalize-path/package.json
+339 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/nth-check/package.json
+340 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/number-is-nan/package.json
+341 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/object-assign/package.json
+342 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/object.omit/package.json
+343 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/obuf/package.json
+344 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/on-finished/package.json
+345 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/on-headers/package.json
+346 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/once/package.json
+347 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/opn/package.json
+348 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/original/package.json
+349 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/os-browserify/package.json
+350 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/os-homedir/package.json
+351 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/os-locale/package.json
+352 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/os-tmpdir/package.json
+353 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/p-limit/package.json
+354 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/p-locate/package.json
+355 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/p-map/package.json
+356 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/pako/package.json
+357 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/param-case/package.json
+358 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/parse-asn1/package.json
+359 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/parse-glob/package.json
+360 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/parse-json/package.json
+361 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/parseurl/package.json
+362 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/path-browserify/package.json
+363 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/path-exists/package.json
+364 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/path-is-absolute/package.json
+365 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/path-is-inside/package.json
+366 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/path-to-regexp/package.json
+367 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/path-type/package.json
+368 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/pbkdf2/package.json
+369 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/perlin-simplex/package.json
+370 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/pify/package.json
+371 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/pinkie/package.json
+372 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/pinkie-promise/package.json
+373 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/pkg-dir/package.json
+374 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/portfinder/package.json
+375 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/postcss/package.json
+376 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/postcss-load-config/package.json
+377 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/postcss-load-options/package.json
+378 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/postcss-load-plugins/package.json
+379 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/postcss-loader/package.json
+380 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/preserve/package.json
+381 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/pretty-error/package.json
+382 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/private/package.json
+383 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/process/package.json
+384 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/process-nextick-args/package.json
+385 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/proxy-addr/package.json
+386 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/prr/package.json
+387 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/public-encrypt/package.json
+388 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/punycode/package.json
+389 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/qs/package.json
+390 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/querystring/package.json
+391 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/querystring-es3/package.json
+392 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/querystringify/package.json
+393 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/randomatic/package.json
+394 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/randombytes/package.json
+395 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/range-parser/package.json
+396 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/react/package.json
+397 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/react-css-transition/package.json
+398 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/react-dom/package.json
+399 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/react-redux/package.json
+400 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/react-router/package.json
+401 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/read-pkg/package.json
+402 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/read-pkg-up/package.json
+403 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/readable-stream/package.json
+404 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/readdirp/package.json
+405 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/redent/package.json
+406 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/redux/package.json
+407 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/regenerate/package.json
+408 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/regenerator-runtime/package.json
+409 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/regenerator-transform/package.json
+410 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/regex-cache/package.json
+411 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/regexpu-core/package.json
+412 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/regjsgen/package.json
+413 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/regjsparser/package.json
+414 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/relateurl/package.json
+415 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/remove-trailing-separator/package.json
+416 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/renderkid/package.json
+417 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/repeat-element/package.json
+418 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/repeat-string/package.json
+419 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/repeating/package.json
+420 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/require-directory/package.json
+421 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/require-from-string/package.json
+422 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/require-main-filename/package.json
+423 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/requires-port/package.json
+424 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/right-align/package.json
+425 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/rimraf/package.json
+426 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/ripemd160/package.json
+427 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/safe-buffer/package.json
+428 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/schema-utils/package.json
+429 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/script-loader/package.json
+430 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/sdp/package.json
+431 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/select-hose/package.json
+432 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/selfsigned/package.json
+433 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/semver/package.json
+434 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/send/package.json
+435 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/serve-index/package.json
+436 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/serve-static/package.json
+437 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/set-blocking/package.json
+438 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/set-immediate-shim/package.json
+439 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/setimmediate/package.json
+440 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/setprototypeof/package.json
+441 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/sha.js/package.json
+442 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/signal-exit/package.json
+443 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/slash/package.json
+444 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/sockjs/package.json
+445 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/sockjs-client/package.json
+446 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/source-list-map/package.json
+447 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/source-map/package.json
+448 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/source-map-support/package.json
+449 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/spdx-correct/package.json
+450 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/spdx-expression-parse/package.json
+451 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/spdx-license-ids/package.json
+452 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/spdy/package.json
+453 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/spdy-transport/package.json
+454 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/sprintf-js/package.json
+455 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/statuses/package.json
+456 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/stream-browserify/package.json
+457 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/stream-http/package.json
+458 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/string-width/package.json
+459 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/string_decoder/package.json
+460 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/strip-ansi/package.json
+461 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/strip-bom/package.json
+462 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/strip-indent/package.json
+463 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/style-loader/package.json
+464 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/supports-color/package.json
+465 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/tapable/package.json
+466 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/three/package.json
+467 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/thunky/package.json
+468 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/timers-browserify/package.json
+469 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/to-arraybuffer/package.json
+470 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/to-fast-properties/package.json
+471 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/toposort/package.json
+472 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/trim-newlines/package.json
+473 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/trim-right/package.json
+474 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/tty-browserify/package.json
+475 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/type-is/package.json
+476 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/uglify-js/package.json
+477 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/uglify-to-browserify/package.json
+478 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/uglifyjs-webpack-plugin/package.json
+479 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/unpipe/package.json
+480 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/upper-case/package.json
+481 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/url/package.json
+482 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/url-parse/package.json
+483 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/util/package.json
+484 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/util-deprecate/package.json
+485 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/utila/package.json
+486 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/utils-merge/package.json
+487 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/uuid/package.json
+488 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/validate-npm-package-license/package.json
+489 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/vary/package.json
+490 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/vm-browserify/package.json
+491 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/watchpack/package.json
+492 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/wbuf/package.json
+493 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/webpack/package.json
+494 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/webpack-dev-middleware/package.json
+495 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/webpack-dev-server/package.json
+496 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/webpack-sources/package.json
+497 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/webrtc-adapter/package.json
+498 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/websocket-driver/package.json
+499 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/websocket-extensions/package.json
+500 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/which-module/package.json
+501 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/window-size/package.json
+502 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/wordwrap/package.json
+503 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/wrap-ansi/package.json
+504 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/wrappy/package.json
+505 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/xml-char-classes/package.json
+506 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/xtend/package.json
+507 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/y18n/package.json
+508 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/yargs/package.json
+509 verbose installManyTop reading scoped package data from /Users/natelubeck/Projects/audio-reactive/node_modules/yargs-parser/package.json
+510 info package.json array-unique@0.2.1 license should be a valid SPDX license expression
+511 info package.json assert@1.4.1 assert is also the name of a node core module.
+512 info package.json buffer@4.9.1 buffer is also the name of a node core module.
+513 info package.json buffer-indexof@1.1.0 No license field.
+514 info package.json console-browserify@1.1.0 No license field.
+515 info package.json css-select@1.2.0 license should be a valid SPDX license expression
+516 info package.json css-what@2.1.0 license should be a valid SPDX license expression
+517 info package.json date-now@0.1.4 No license field.
+518 info package.json domelementtype@1.3.0 No license field.
+519 info package.json domhandler@2.1.0 No license field.
+520 info package.json domutils@1.5.1 No license field.
+521 info package.json enhanced-resolve@3.3.0 No license field.
+522 info package.json entities@1.1.1 license should be a valid SPDX license expression
+523 info package.json esutils@2.0.2 No license field.
+524 info package.json events@1.1.1 events is also the name of a node core module.
+525 info package.json eventsource@0.1.6 No license field.
+526 info package.json glob-base@0.3.0 license should be a valid SPDX license expression
+527 info package.json htmlparser2@3.3.0 No license field.
+528 info package.json indexof@0.0.1 No repository field.
+529 info package.json indexof@0.0.1 No license field.
+530 info package.json is-primitive@2.0.0 license should be a valid SPDX license expression
+531 info package.json json3@3.3.2 No license field.
+532 info package.json jsonify@0.0.0 license should be a valid SPDX license expression
+533 info package.json longest@1.0.1 license should be a valid SPDX license expression
+534 info package.json mime@1.3.4 No license field.
+535 info package.json ms@0.7.1 No license field.
+536 info package.json node-forge@0.6.33 No license field.
+537 info package.json nth-check@1.0.1 license should be a valid SPDX license expression
+538 info package.json obuf@1.1.1 No description
+539 info package.json preserve@0.2.0 license should be a valid SPDX license expression
+540 info package.json process@0.11.10 process is also the name of a node core module.
+541 info package.json punycode@1.4.1 punycode is also the name of a node core module.
+542 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+543 info package.json querystring@0.2.0 No license field.
+544 info package.json querystring-es3@0.2.1 No license field.
+545 info package.json regenerator-transform@0.9.11 license should be a valid SPDX license expression
+546 info package.json regjsparser@0.1.5 license should be a valid SPDX license expression
+547 info package.json repeat-element@1.1.2 license should be a valid SPDX license expression
+548 info package.json string_decoder@1.0.3 string_decoder is also the name of a node core module.
+549 info package.json three@0.86.0 No README data
+550 info package.json thunky@0.1.0 No license field.
+551 info package.json timers-browserify@2.0.2 No license field.
+552 info package.json url@0.11.0 url is also the name of a node core module.
+553 info package.json util@0.10.3 util is also the name of a node core module.
+554 info package.json utils-merge@1.0.0 No license field.
+555 info package.json window-size@0.1.0 No license field.
+556 info package.json wordwrap@0.0.2 license should be a valid SPDX license expression
+557 info package.json script-loader@0.7.0 No license field.
+558 verbose readDependencies loading dependencies from /Users/natelubeck/Projects/audio-reactive/package.json
+559 silly cache add args [ 'three.fbo-helper', null ]
+560 verbose cache add spec three.fbo-helper
+561 silly cache add parsed spec Result {
+561 silly cache add   raw: 'three.fbo-helper',
+561 silly cache add   scope: null,
+561 silly cache add   name: 'three.fbo-helper',
+561 silly cache add   rawSpec: '',
+561 silly cache add   spec: 'latest',
+561 silly cache add   type: 'tag' }
+562 silly addNamed three.fbo-helper@latest
+563 verbose addNamed "latest" is being treated as a dist-tag for three.fbo-helper
+564 info addNameTag [ 'three.fbo-helper', 'latest' ]
+565 silly mapToRegistry name three.fbo-helper
+566 silly mapToRegistry using default registry
+567 silly mapToRegistry registry https://registry.npmjs.org/
+568 silly mapToRegistry data Result {
+568 silly mapToRegistry   raw: 'three.fbo-helper',
+568 silly mapToRegistry   scope: null,
+568 silly mapToRegistry   name: 'three.fbo-helper',
+568 silly mapToRegistry   rawSpec: '',
+568 silly mapToRegistry   spec: 'latest',
+568 silly mapToRegistry   type: 'tag' }
+569 silly mapToRegistry uri https://registry.npmjs.org/three.fbo-helper
+570 verbose addNameTag registry:https://registry.npmjs.org/three.fbo-helper not in flight; fetching
+571 verbose request uri https://registry.npmjs.org/three.fbo-helper
+572 verbose request no auth needed
+573 info attempt registry request try #1 at 8:46:58 PM
+574 verbose request id 7eba210abdc8dd4e
+575 http request GET https://registry.npmjs.org/three.fbo-helper
+576 http 200 https://registry.npmjs.org/three.fbo-helper
+577 verbose headers { server: 'nginx/1.10.1',
+577 verbose headers   'content-type': 'application/json',
+577 verbose headers   'last-modified': 'Fri, 07 Oct 2016 18:26:21 GMT',
+577 verbose headers   etag: 'W/"57f7e8cd-1eae"',
+577 verbose headers   'content-encoding': 'gzip',
+577 verbose headers   'cache-control': 'max-age=300',
+577 verbose headers   'content-length': '2149',
+577 verbose headers   'accept-ranges': 'bytes',
+577 verbose headers   date: 'Fri, 14 Jul 2017 03:46:58 GMT',
+577 verbose headers   via: '1.1 varnish',
+577 verbose headers   age: '0',
+577 verbose headers   connection: 'keep-alive',
+577 verbose headers   'x-served-by': 'cache-lax8622-LAX',
+577 verbose headers   'x-cache': 'MISS',
+577 verbose headers   'x-cache-hits': '0',
+577 verbose headers   'x-timer': 'S1500004019.609058,VS0,VE60',
+577 verbose headers   vary: 'Accept-Encoding, Accept' }
+578 silly get cb [ 200,
+578 silly get   { server: 'nginx/1.10.1',
+578 silly get     'content-type': 'application/json',
+578 silly get     'last-modified': 'Fri, 07 Oct 2016 18:26:21 GMT',
+578 silly get     etag: 'W/"57f7e8cd-1eae"',
+578 silly get     'content-encoding': 'gzip',
+578 silly get     'cache-control': 'max-age=300',
+578 silly get     'content-length': '2149',
+578 silly get     'accept-ranges': 'bytes',
+578 silly get     date: 'Fri, 14 Jul 2017 03:46:58 GMT',
+578 silly get     via: '1.1 varnish',
+578 silly get     age: '0',
+578 silly get     connection: 'keep-alive',
+578 silly get     'x-served-by': 'cache-lax8622-LAX',
+578 silly get     'x-cache': 'MISS',
+578 silly get     'x-cache-hits': '0',
+578 silly get     'x-timer': 'S1500004019.609058,VS0,VE60',
+578 silly get     vary: 'Accept-Encoding, Accept' } ]
+579 verbose get saving three.fbo-helper to /Users/natelubeck/.npm/registry.npmjs.org/three.fbo-helper/.cache.json
+580 verbose correctMkdir /Users/natelubeck/.npm correctMkdir not in flight; initializing
+581 silly addNameTag next cb for three.fbo-helper with tag latest
+582 silly addNamed three.fbo-helper@1.1.0
+583 verbose addNamed "1.1.0" is a plain semver version for three.fbo-helper
+584 silly mapToRegistry name three.fbo-helper
+585 silly mapToRegistry using default registry
+586 silly mapToRegistry registry https://registry.npmjs.org/
+587 silly mapToRegistry data Result {
+587 silly mapToRegistry   raw: 'three.fbo-helper',
+587 silly mapToRegistry   scope: null,
+587 silly mapToRegistry   name: 'three.fbo-helper',
+587 silly mapToRegistry   rawSpec: '',
+587 silly mapToRegistry   spec: 'latest',
+587 silly mapToRegistry   type: 'tag' }
+588 silly mapToRegistry uri https://registry.npmjs.org/three.fbo-helper
+589 verbose addRemoteTarball https://registry.npmjs.org/three.fbo-helper/-/three.fbo-helper-1.1.0.tgz not in flight; adding
+590 verbose addRemoteTarball [ 'https://registry.npmjs.org/three.fbo-helper/-/three.fbo-helper-1.1.0.tgz',
+590 verbose addRemoteTarball   '315664a5eda61ee040d5c0f2b11f3959fd52cc62' ]
+591 info retry fetch attempt 1 at 8:46:58 PM
+592 info attempt registry request try #1 at 8:46:58 PM
+593 http fetch GET https://registry.npmjs.org/three.fbo-helper/-/three.fbo-helper-1.1.0.tgz
+594 http fetch 200 https://registry.npmjs.org/three.fbo-helper/-/three.fbo-helper-1.1.0.tgz
+595 silly fetchAndShaCheck shasum 315664a5eda61ee040d5c0f2b11f3959fd52cc62
+596 verbose addTmpTarball /var/folders/xj/5fg7jq611r583x91tjtx1dph0000gn/T/npm-16632-153f5b3b/registry.npmjs.org/three.fbo-helper/-/three.fbo-helper-1.1.0.tgz not in flight; adding
+597 verbose addTmpTarball already have metadata; skipping unpack for three.fbo-helper@1.1.0
+598 verbose correctMkdir /Users/natelubeck/.npm correctMkdir not in flight; initializing
+599 silly cache afterAdd three.fbo-helper@1.1.0
+600 verbose afterAdd /Users/natelubeck/.npm/three.fbo-helper/1.1.0/package/package.json not in flight; writing
+601 verbose correctMkdir /Users/natelubeck/.npm correctMkdir not in flight; initializing
+602 verbose afterAdd /Users/natelubeck/.npm/three.fbo-helper/1.1.0/package/package.json written
+603 silly install resolved [ { name: 'three.fbo-helper',
+603 silly install resolved     version: '1.1.0',
+603 silly install resolved     devDependencies: { 'babel-cli': '^6.0.0', 'babel-preset-es2015': '^6.14.0' },
+603 silly install resolved     scripts: { build: 'cp src/THREE.FBOHelper.js build/THREE.FBOHelper.js && babel --presets es2015 src/THREE.FBOHelper.js -o build/THREE.FBOHelper-ES5.js' },
+603 silly install resolved     description: 'FrameBuffer Object inspector for three.js',
+603 silly install resolved     main: 'build/THREE.FBOHelper.js',
+603 silly install resolved     dependencies: {},
+603 silly install resolved     repository:
+603 silly install resolved      { type: 'git',
+603 silly install resolved        url: 'git+https://github.com/spite/THREE.FBOHelper.git' },
+603 silly install resolved     keywords: [ 'webgl', 'three.js', 'framebuffer', 'object', 'fbo', 'viewer' ],
+603 silly install resolved     author:
+603 silly install resolved      { name: 'Jaume Sanchez',
+603 silly install resolved        email: 'the.spite@gmail.com',
+603 silly install resolved        url: 'https://www.clicktorelease.com' },
+603 silly install resolved     license: 'MIT',
+603 silly install resolved     bugs: { url: 'https://github.com/spite/THREE.FBOHelper/issues' },
+603 silly install resolved     homepage: 'https://github.com/spite/THREE.FBOHelper#readme',
+603 silly install resolved     gitHead: '57523b2c8eb3da55313bcfdbf72a0c0b78f21ea8',
+603 silly install resolved     _id: 'three.fbo-helper@1.1.0',
+603 silly install resolved     _shasum: '315664a5eda61ee040d5c0f2b11f3959fd52cc62',
+603 silly install resolved     _from: 'three.fbo-helper@latest',
+603 silly install resolved     _npmVersion: '3.8.6',
+603 silly install resolved     _nodeVersion: '6.0.0',
+603 silly install resolved     _npmUser: { name: 'spite', email: 'the.spite@gmail.com' },
+603 silly install resolved     dist:
+603 silly install resolved      { shasum: '315664a5eda61ee040d5c0f2b11f3959fd52cc62',
+603 silly install resolved        tarball: 'https://registry.npmjs.org/three.fbo-helper/-/three.fbo-helper-1.1.0.tgz' },
+603 silly install resolved     maintainers: [ [Object] ],
+603 silly install resolved     _npmOperationalInternal:
+603 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+603 silly install resolved        tmp: 'tmp/three.fbo-helper-1.1.0.tgz_1475864778935_0.5250703813508153' },
+603 silly install resolved     directories: {},
+603 silly install resolved     _resolved: 'https://registry.npmjs.org/three.fbo-helper/-/three.fbo-helper-1.1.0.tgz' } ]
+604 info install three.fbo-helper@1.1.0 into /Users/natelubeck/Projects/audio-reactive
+605 info installOne three.fbo-helper@1.1.0
+606 verbose installOne of three.fbo-helper to /Users/natelubeck/Projects/audio-reactive not in flight; installing
+607 verbose correctMkdir /Users/natelubeck/.npm/_locks correctMkdir not in flight; initializing
+608 verbose lock using /Users/natelubeck/.npm/_locks/three-fbo-helper-95f160068fd9d07d.lock for /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper
+609 silly install write writing three.fbo-helper 1.1.0 to /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper
+610 verbose unbuild node_modules/three.fbo-helper
+611 silly gentlyRm /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper is being purged from base /Users/natelubeck/Projects/audio-reactive
+612 verbose gentlyRm don't care about contents; nuking /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper
+613 verbose tar unpack /Users/natelubeck/.npm/three.fbo-helper/1.1.0/package.tgz
+614 verbose tar unpacking to /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper
+615 silly gentlyRm /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper is being purged
+616 verbose gentlyRm don't care about contents; nuking /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper
+617 silly gunzTarPerm modes [ '755', '644' ]
+618 silly gunzTarPerm extractEntry package.json
+619 silly gunzTarPerm extractEntry README.md
+620 silly gunzTarPerm extractEntry LICENSE
+621 silly gunzTarPerm extractEntry about/demo.jpg
+622 silly gunzTarPerm extractEntry about/snapshot1.jpg
+623 silly gunzTarPerm extractEntry about/snapshot2.jpg
+624 silly gunzTarPerm extractEntry about/snapshot3.jpg
+625 silly gunzTarPerm extractEntry about/snapshot4.jpg
+626 silly gunzTarPerm extractEntry build/THREE.FBOHelper-ES5.js
+627 silly gunzTarPerm extractEntry build/THREE.FBOHelper.js
+628 silly gunzTarPerm extractEntry demo/index-fireworks.html
+629 silly gunzTarPerm extractEntry demo/index.html
+630 silly gunzTarPerm extractEntry demo/js/Maf.js
+631 silly gunzTarPerm extractEntry demo/js/OrbitControls.js
+632 silly gunzTarPerm extractEntry demo/js/THREE.FBOHelper.js
+633 silly gunzTarPerm extractEntry demo/js/dat.gui.min.js
+634 silly gunzTarPerm extractEntry demo/js/isMobile.min.js
+635 silly gunzTarPerm extractEntry demo/js/three.js
+636 silly gunzTarPerm extractEntry demo/js/three.min.js
+637 silly gunzTarPerm extractEntry src/THREE.FBOHelper.js
+638 verbose write writing to /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper/package.json
+639 info preinstall three.fbo-helper@1.1.0
+640 verbose readDependencies loading dependencies from /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper/package.json
+641 verbose readDependencies loading dependencies from /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper/package.json
+642 silly install resolved []
+643 verbose about to build /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper
+644 info build /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper
+645 info linkStuff three.fbo-helper@1.1.0
+646 silly linkStuff three.fbo-helper@1.1.0 has /Users/natelubeck/Projects/audio-reactive/node_modules as its parent node_modules
+647 verbose linkBins three.fbo-helper@1.1.0
+648 verbose linkMans three.fbo-helper@1.1.0
+649 verbose rebuildBundles three.fbo-helper@1.1.0
+650 info install three.fbo-helper@1.1.0
+651 info postinstall three.fbo-helper@1.1.0
+652 verbose unlock done using /Users/natelubeck/.npm/_locks/three-fbo-helper-95f160068fd9d07d.lock for /Users/natelubeck/Projects/audio-reactive/node_modules/three.fbo-helper
+653 verbose validateInstall loading /Users/natelubeck/Projects/audio-reactive/package.json for validation
+654 verbose stack Error: The package webpack@3.0.0 does not satisfy its siblings' peerDependencies requirements!
+654 verbose stack     at /Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/lib/install.js:125:32
+654 verbose stack     at /Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/lib/install.js:268:7
+654 verbose stack     at /Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+654 verbose stack     at /Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+654 verbose stack     at cb (/Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+654 verbose stack     at /Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+654 verbose stack     at cb (/Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+654 verbose stack     at /Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+654 verbose stack     at cb (/Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+654 verbose stack     at /Users/natelubeck/.nvm/versions/node/v4.4.4/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+655 verbose cwd /Users/natelubeck/Projects/audio-reactive
+656 error Darwin 16.6.0
+657 error argv "/Users/natelubeck/.nvm/versions/node/v4.4.4/bin/node" "/Users/natelubeck/.nvm/versions/node/v4.4.4/bin/npm" "i" "-S" "three.fbo-helper"
+658 error node v4.4.4
+659 error npm  v2.15.1
+660 error code EPEERINVALID
+661 error peerinvalid The package webpack@3.0.0 does not satisfy its siblings' peerDependencies requirements!
+661 error peerinvalid Peer html-webpack-plugin@2.29.0 wants webpack@1 || ^2 || ^2.1.0-beta || ^2.2.0-rc || ^3
+661 error peerinvalid Peer webpack-dev-middleware@1.11.0 wants webpack@^1.0.0 || ^2.0.0 || ^3.0.0
+661 error peerinvalid Peer webpack-dev-server@2.5.0 wants webpack@^2.2.0
+661 error peerinvalid Peer babel-loader@7.1.1 wants webpack@2 || 3
+661 error peerinvalid Peer uglifyjs-webpack-plugin@0.4.6 wants webpack@^1.9 || ^2 || ^2.1.0-beta || ^2.2.0-rc || ^3.0.0
+662 verbose exit [ 1, true ]
